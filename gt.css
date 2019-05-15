@@ -5,6 +5,33 @@ body {
   font-size: 16px;
 }
 
+/************* i18n demo *************/
+.lang-menu {
+  height: 130px;
+  font-weight: bold;
+  /* top: 15px; */
+  text-align: center;
+  margin-top: 80px ; 
+}
+.lang-menu .title {
+  font-size: 30px;
+}
+.lang-menu .langbtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.lang-menu .langbtn:hover {
+  background-color: #44AD47;
+  border-radius: 5px; 
+}
+.lang-menu .selected {
+  background-color:#44AD47;
+  border-radius: 5px; }
+/* END  ************   i18n demo *************/
+
 .container,
 .row {
   margin-top: 20px;
